@@ -67,10 +67,10 @@ void loop() {
 	Serial.println("*C");
 	Serial.println(Time.timeStr());
 	
-	Particle.publish("Humidity",String(h));
-	Particle.publish("Temperature",String(t));
-	Particle.publish("Dew point",String(dp));
-	Particle.publish("Heat Index",String(hi));
+	Particle.publish("Humidity", String(h));
+	Particle.publish("Temperature", String(t));
+	Particle.publish("Dew point", String(dp));
+	Particle.publish("Heat Index", String(hi));
 	delay(5000);
 }
 
